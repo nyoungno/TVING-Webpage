@@ -11,19 +11,19 @@ body {
     z-index: 5;
    }
   
-  .vcft22 {
+  .nav_space {
     padding: 0 1.333rem;
     height: 5rem;
   }
   
   @media (min-width: 768px) {
-    .vcft22 {
+    .nav_space {
       height: 5.833rem;
   }
   }
   
   @media (min-width: 1200px) {
-    .vcft22 {
+    .nav_space {
       padding: 0 4rem 0 3rem;
   }
   }
@@ -95,7 +95,7 @@ body {
   .coupon_container { 
     text-align: center;
   }
-  
+
   .accordion_font {
     color: #cecece;
     font-weight: bold;
@@ -204,6 +204,12 @@ body {
     }
     .menus_last{
       margin-left: 20px;
+    }
+    .banner_box {
+      text-align: center;
+      background-image: url(/image/main/banner_area/pc-img-gradatrion-0228.png), url(./image/main/banner_area/F_webp\,720.webp);
+      height: 800px;
+      background-size: cover;
     }
   }
   
