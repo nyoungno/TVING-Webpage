@@ -40,15 +40,30 @@ body {
     background-size: cover;
   }
   
-  .button1 {
+  .button_RED {
     width: 400px;
     height: 4.083rem;
     padding: 0 3.35rem 0 3.35rem;
     font-size: 1.333rem;
     margin: 2.8rem auto 0;
     border-radius: 4px;
+    border: none;
     font-weight: bold;
     color: #fff;
+    background-color: #ff153c
+  }
+
+  .button_WHITE {
+    width: 400px;
+    height: 4.083rem;
+    padding: 0 3.35rem 0 3.35rem;
+    font-size: 1.333rem;
+    margin: 2.8rem auto 0;
+    border-radius: 4px;
+    border: none;
+    font-weight: bold;
+    color: black;
+    background-color: white;
   }
   
   .banner_font_box {
@@ -123,18 +138,7 @@ body {
   .card_items {
     border: none;
   }
-  
-  .button2 {
-    width: 400px;
-    height: 4.083rem;
-    padding: 0 3.35rem 0 3.35rem;
-    font-size: 1.333rem;
-    margin: 2.8rem auto 0;
-    border-radius: 4px;
-    font-weight: bold;
-    color: black;
-  }
-  
+   
   .footer-line-container {
     padding-left: 3.888rem;
     padding-right: 3.888rem;
@@ -211,6 +215,31 @@ body {
       height: 800px;
       background-size: cover;
     }
+    .button_RED {
+      width: 350px;
+      height: 4.083rem;
+      padding: 0 3.35rem 0 3.35rem;
+      font-size: 1.333rem;
+      margin: 2.8rem auto 0;
+      border-radius: 4px;
+      border: none;
+      font-weight: bold;
+      color: #fff;
+      background-color: #ff153c
+    }
+    .button_WHITE {
+      width: 350px;
+      height: 4.083rem;
+      padding: 0 3.35rem 0 3.35rem;
+      font-size: 1.333rem;
+      margin: 2.8rem auto 0;
+      border-radius: 4px;
+      border: none;
+      font-weight: bold;
+      color: black;
+      background-color: white;
+    }
+    
   }
   
   @media (max-width: 600px) {
@@ -223,4 +252,29 @@ body {
     .footer-line-container {
       text-align: center;
     }
+    .button_RED {
+      width: 300px;
+      height: 4.083rem;
+      padding: 0 3.35rem 0 3.35rem;
+      font-size: 1.333rem;
+      margin: 2.8rem auto 0;
+      border-radius: 4px;
+      border: none;
+      font-weight: bold;
+      color: #fff;
+      background-color: #ff153c
+    }
+    .button_WHITE {
+      width: 300px;
+      height: 4.083rem;
+      padding: 0 3.35rem 0 3.35rem;
+      font-size: 1.333rem;
+      margin: 2.8rem auto 0;
+      border-radius: 4px;
+      border: none;
+      font-weight: bold;
+      color: black;
+      background-color: white;
+    }
+    
   }
