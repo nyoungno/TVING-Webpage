@@ -239,7 +239,7 @@ body {
       color: black;
       background-color: white;
     }
-    
+
   }
   
   @media (max-width: 600px) {
@@ -276,5 +276,17 @@ body {
       color: black;
       background-color: white;
     }
-    
+    .h1, h1 {
+      font-size: calc(1.175rem + 1.5vw);
+    }
+    .text_font_firstbox {
+      font-size: 1.233rem;
+      font-weight: 500;
+      margin-top: 1.667rem;
+    }
+    .text_font_secondbox {
+      font-size: 1.233rem;
+      font-weight: 500;
+    }
+
   }
