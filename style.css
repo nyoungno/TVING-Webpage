@@ -1,0 +1,220 @@
+body {
+    background-color: black;
+    font-family: Noto Sans KR, -apple-system, BlinkMacSystemFont, Roboto, Segoe UI, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;
+    margin: 0 auto;
+  }
+  
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;  left: 0; right: 0;
+    z-index: 5;
+   }
+  
+  .vcft22 {
+    padding: 0 1.333rem;
+    height: 5rem;
+  }
+  
+  @media (min-width: 768px) {
+    .vcft22 {
+      height: 5.833rem;
+  }
+  }
+  
+  @media (min-width: 1200px) {
+    .vcft22 {
+      padding: 0 4rem 0 3rem;
+  }
+  }
+  
+  .font_item {
+    font-weight: bold;
+    color: white;
+  }
+  
+  .banner_box {
+    text-align: center;
+    background-image: url(/image/main/banner_area/pc-img-gradatrion-0228.png), url(https://image.tving.com/ntgs/operation/onboard/2023/12/27/1703657284_1.png/dims/resize/F_webp,2048);
+    height: 800px;
+    background-size: cover;
+  }
+  
+  .button1 {
+    width: 400px;
+    height: 4.083rem;
+    padding: 0 3.35rem 0 3.35rem;
+    font-size: 1.333rem;
+    margin: 2.8rem auto 0;
+    border-radius: 4px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .banner_font_box {
+    padding-top: 300px;
+  }
+  
+  .text_container {
+    text-align: center;
+  }
+  
+  .text_font_firstbox {
+    font-size: 1.833rem;
+    font-weight: 500;
+    margin-top: 1.667rem 
+  }
+  
+  .text_font_secondbox {
+    font-size: 1.833rem;
+    font-weight: 500;
+  }
+  
+  .login_container {
+    text-align: center;
+  }
+  
+  .question_container {
+    text-align: center;
+    margin-top: 250px;
+  }
+  
+  .accordion {
+    --bs-accordion-btn-bg: black;
+    --bs-accordion-active-bg: black;
+    --bs-accordion-active-color: #cecece
+    --bs-accordion-btn-focus-box-shadow: none;
+    --bs-accordion-bg: black;
+    --bs-accordion-color: #cecece
+  }
+
+  .accordion-button:not(.collapsed) {
+    box-shadow: none;
+  }
+
+  .coupon_container { 
+    text-align: center;
+  }
+  
+  .accordion_font {
+    color: #cecece;
+    font-weight: bold;
+  }
+
+  .menu_first_font {
+    color: #cecece;
+    font-weight: bold;
+  }
+  
+  @media (min-width: 768px) {
+    .accordion {
+    padding-left: 3.888rem;
+    padding-right: 3.888rem;
+  }
+  }
+  
+  .menu_font {
+    color: #cecece;
+    font-weight: bold;
+    font-size: 0.805rem;;
+    margin-bottom: 0rem
+  }
+  
+  .card_items {
+    border: none;
+  }
+  
+  .button2 {
+    width: 400px;
+    height: 4.083rem;
+    padding: 0 3.35rem 0 3.35rem;
+    font-size: 1.333rem;
+    margin: 2.8rem auto 0;
+    border-radius: 4px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .footer-line-container {
+    padding-left: 3.888rem;
+    padding-right: 3.888rem;
+    padding-top: 130px;
+  }
+  
+  .first-line-container {
+    width: 60%;
+  }
+  
+  .menus {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  ul{
+    list-style-type: none;
+    padding-left: 0px;
+  }
+  
+  .menus li{
+    margin-right: 20px;
+    font-weight: bold;
+  }
+  
+  .second-line-container {
+    width: 60%;
+  }
+  
+  .sns-area {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .sns-icon{
+    width: 40px;
+    height: 40px;
+    background-color: #cecece;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+  }
+  
+  @media (max-width:992px) {
+    .second-line-container {
+      display: none;
+    }
+    .sns-area {
+      justify-content: center;
+    }
+    .last {
+      margin-right: 0;
+    }
+    .menu_font {
+      text-align: center;
+    }
+    .first-line-container {
+      width: 100%;
+    }
+    .menus {
+      display: block;
+    }
+    .footer-line-container {
+      text-align: center;
+    }
+    .menus_last{
+      margin-left: 20px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .menus {
+      display:block;
+    }
+    .menus_last{
+      margin-left: 20px;
+    }
+    .footer-line-container {
+      text-align: center;
+    }
+  }
